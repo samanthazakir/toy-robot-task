@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "S:\\job tasks\\toy robot task by ICWA\\ToyRobot\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5644D539-FCCA-42CB-8396-3DC9404DE415}|ToyRobotApp\\ToyRobotApp.csproj|s:\\job tasks\\toy robot task by icwa\\toyrobot\\toyrobotapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5644D539-FCCA-42CB-8396-3DC9404DE415}|ToyRobotApp\\ToyRobotApp.csproj|solutionrelative:toyrobotapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "S:\\job tasks\\toy robot task by ICWA\\ToyRobot\\ToyRobotApp\\Program.cs",
+              "RelativeDocumentMoniker": "ToyRobotApp\\Program.cs",
+              "ToolTip": "S:\\job tasks\\toy robot task by ICWA\\ToyRobot\\ToyRobotApp\\Program.cs",
+              "RelativeToolTip": "ToyRobotApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T06:29:46.75Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
