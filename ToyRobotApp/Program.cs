@@ -9,13 +9,8 @@ namespace ToyRobotApp
         public static void Main(string[] args)
         {
             var tabletop = new TableTopService();
-            Position pos = new Position();
-            pos.X = 1;
-            pos.Y = 2;
-            var result = tabletop.IsValidPosition(pos);
-            Console.WriteLine(result);
-
-            var app = new Robot();
+            var robotService = new RobotService(tabletop);
+            var app = new RobotApp(robotService);
             string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
             string filePath = Path.Combine(baseDirectory, "..", "..", "..", "Input", "command.txt");
 

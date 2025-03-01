@@ -1,8 +1,6 @@
-PLACE
+PLACE 1,2,EAST
 MOVE
-KE
+MOVE
 LEFT
-RIGHT
-left 
-right
-Report
+MOVE
+REPORT
