@@ -30,10 +30,9 @@ namespace ToyRobotApp
                     {
                         _robotService.Place(x, y, facing);
                     }
-                    Console.WriteLine("PLACE");
                     break;
                 case "MOVE":
-                    Console.WriteLine("MOVE");
+                    _robotService.Move();
                     break;
                 case "LEFT":
                     Console.WriteLine("LEFT");

@@ -30,7 +30,34 @@ namespace ToyRobotApp.Services
                 _direction = facing;
             }
         }
+        public void Move()
+        {
+            if (!_isPlaced) throw new InvalidOperationException($"PLACE first to MOVE.");
+            var newPosition = new Position { X = _position.X, Y = _position.Y };
 
+            switch (_direction)
+            {
+                case Direction.NORTH:
+                    newPosition.Y = newPosition.Y + 1;
+                    break;
+                case Direction.SOUTH:
+                    newPosition.Y = newPosition.Y - 1;
+                    break;
+                case Direction.EAST:
+                    newPosition.X = newPosition.X + 1;
+                    break;
+                case Direction.WEST:
+                    newPosition.X = newPosition.X - 1;
+                    break;
+                default:
+                    throw new InvalidOperationException($"Invalid Direction: {_direction}");
+
+            }
+            if (_tableTop.IsValidPosition(newPosition))
+            {
+                _position = newPosition;
+            }
+        }
         public string Report()
         {
             if (!_isPlaced) return "Robot has not been placed yet.";
