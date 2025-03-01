@@ -1,0 +1,8 @@
+PLACE
+MOVE
+KE
+LEFT
+RIGHT
+left 
+right
+Report
