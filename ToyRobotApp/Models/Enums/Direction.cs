@@ -8,9 +8,9 @@ namespace ToyRobotApp.Models.Enums
 {
     public enum Direction
     {
-        NORTH,
-        SOUTH,
+        NORTH,    
         EAST,
+        SOUTH,
         WEST
     }
 }

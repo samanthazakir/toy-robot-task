@@ -35,10 +35,10 @@ namespace ToyRobotApp
                     _robotService.Move();
                     break;
                 case "LEFT":
-                    Console.WriteLine("LEFT");
+                    _robotService.Left();
                     break;
                 case "RIGHT":
-                    Console.WriteLine("RIGHT");
+                    _robotService.Right();
                     break;
                 case "REPORT":
                     Console.WriteLine(_robotService.Report());

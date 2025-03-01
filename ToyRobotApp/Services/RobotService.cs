@@ -32,7 +32,7 @@ namespace ToyRobotApp.Services
         }
         public void Move()
         {
-            if (!_isPlaced) throw new InvalidOperationException($"PLACE first to MOVE.");
+            if (!_isPlaced) throw new InvalidOperationException($"PLACE first to perform this operation.");
             var newPosition = new Position { X = _position.X, Y = _position.Y };
 
             switch (_direction)
@@ -57,6 +57,16 @@ namespace ToyRobotApp.Services
             {
                 _position = newPosition;
             }
+        }
+        public void Left()
+        {
+            if (!_isPlaced) throw new InvalidOperationException($"PLACE first to perform this operation.");
+            _direction = (Direction)(((int)_direction + 3) % 4);
+        }   
+        public void Right()
+        {
+            if (!_isPlaced) throw new InvalidOperationException($"PLACE first to perform this operation.");
+            _direction = (Direction)(((int)_direction + 1) % 4);
         }
         public string Report()
         {
