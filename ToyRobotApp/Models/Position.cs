@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace ToyRobotApp.Models
 {
-    internal class Position
+    public class Position
     {
+        public int X { get; set; }
+        public int Y { get; set; }
     }
 }

@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ToyRobotApp.Models.Enums
 {
-    internal class Direction
+    public enum Direction
     {
+        NORTH,
+        SOUTH,
+        EAST,
+        WEST
     }
 }
