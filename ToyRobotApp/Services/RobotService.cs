@@ -70,7 +70,7 @@ namespace ToyRobotApp.Services
         }
         public string Report()
         {
-            if (!_isPlaced) return "Robot has not been placed yet.";
+            if (!_isPlaced) return "Please place in a valid position.";
             return $"{_position.X},{_position.Y},{_direction}";
         }
     }
