@@ -7,6 +7,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyRobotApp", "ToyRobotApp\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyRobotApp.Tests", "ToyRobotApp.Tests\ToyRobotApp.Tests.csproj", "{9E23B5F4-A12D-487B-8EE8-5EE4517E1C76}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{0D88F44E-B031-4F44-942D-0EFF8D55BFAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{03C8BA46-13CF-4290-BA2A-D3C632342F67}"
+	ProjectSection(SolutionItems) = preProject
+		ci.yml = ci.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyRobotAPI", "ToyRobotAPI\ToyRobotAPI\ToyRobotAPI.csproj", "{3CF93EF7-A3A8-4A44-90C3-A05E71C4F8F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyRobotApp.API", "ToyRobotApp.API\ToyRobotApp.API.csproj", "{7253CC33-6488-439E-B69F-0E139BBBFC83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +32,14 @@ Global
 		{9E23B5F4-A12D-487B-8EE8-5EE4517E1C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E23B5F4-A12D-487B-8EE8-5EE4517E1C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E23B5F4-A12D-487B-8EE8-5EE4517E1C76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CF93EF7-A3A8-4A44-90C3-A05E71C4F8F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CF93EF7-A3A8-4A44-90C3-A05E71C4F8F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CF93EF7-A3A8-4A44-90C3-A05E71C4F8F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CF93EF7-A3A8-4A44-90C3-A05E71C4F8F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7253CC33-6488-439E-B69F-0E139BBBFC83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7253CC33-6488-439E-B69F-0E139BBBFC83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7253CC33-6488-439E-B69F-0E139BBBFC83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7253CC33-6488-439E-B69F-0E139BBBFC83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
