@@ -32,7 +32,7 @@ namespace ToyRobotApp.Services
         }
         public void Move()
         {
-            if (!_isPlaced) throw new InvalidOperationException($"PLACE first to perform this operation.");
+            if (!_isPlaced) throw new InvalidOperationException($"PLACE in a valid position first to perform this operation.");
             var newPosition = new Position { X = _position.X, Y = _position.Y };
 
             switch (_direction)
