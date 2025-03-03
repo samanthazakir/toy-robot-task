@@ -36,6 +36,24 @@ cd ToyRobotApp.Tests
 dotnet restore
 ```
 
+### Project Files
+The `ToyRobotApp` project has the following files:
+| File | Description |
+|---|---|
+| `Program.cs` | Entry point, reads commands from file and executes them. |
+| `RobotApp.cs` | Processes commands and calls `RobotService`. |
+| `RobotService.cs` | Handles actual logic for movement, rotation, and boundary checks. |
+| `TableTopService.cs` | Defines the table size and validates positions. |
+| `Position.cs` | Represents a coordinate (X, Y). |
+| `Direction.cs` | Enum for directions (NORTH, SOUTH, EAST, WEST). |
+
+### Tests
+
+The `ToyRobotApp.Tests` project contains unit tests for:
+- `RobotApp` command processing.
+- `RobotService` logic (placement, movement, rotation).
+- `TableTopService` validation logic.
+
 ## Running the Application
 
 Ensure Docker is installed and running on your system. If you want to run the app in a containerized environment, follow the steps below to build the Docker image and run the app in a container.
