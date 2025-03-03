@@ -20,7 +20,7 @@ namespace ToyRobotApp.Services
             _tableTop = tableTop;
         }
 
-        public void Place(int x, int y, Direction facing)
+        public virtual void Place(int x, int y, Direction facing)
         {
             var newPosition = new Position { X = x, Y = y };
             if (_tableTop.IsValidPosition(newPosition))
@@ -30,7 +30,7 @@ namespace ToyRobotApp.Services
                 _direction = facing;
             }
         }
-        public void Move()
+        public virtual void Move()
         {
             if (!_isPlaced) throw new InvalidOperationException($"PLACE in a valid position first to perform this operation.");
             var newPosition = new Position { X = _position.X, Y = _position.Y };
@@ -58,17 +58,17 @@ namespace ToyRobotApp.Services
                 _position = newPosition;
             }
         }
-        public void Left()
+        public virtual void Left()
         {
             if (!_isPlaced) throw new InvalidOperationException($"PLACE first to perform this operation.");
             _direction = (Direction)(((int)_direction + 3) % 4);
         }   
-        public void Right()
+        public virtual void Right()
         {
             if (!_isPlaced) throw new InvalidOperationException($"PLACE first to perform this operation.");
             _direction = (Direction)(((int)_direction + 1) % 4);
         }
-        public string Report()
+        public virtual string Report()
         {
             if (!_isPlaced) return "Please place in a valid position.";
             return $"{_position.X},{_position.Y},{_direction}";
