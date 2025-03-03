@@ -1,7 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "S:\\job tasks\\toy robot task by ICWA\\ToyRobot\\",
-  "Documents": [],
+  "WorkspaceRootPath": "S:\\job tasks\\toy robot task by ICWA_V2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E23B5F4-A12D-487B-8EE8-5EE4517E1C76}|ToyRobotApp.Tests\\ToyRobotApp.Tests.csproj|s:\\job tasks\\toy robot task by icwa_v2\\toyrobotapp.tests\\robotapptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E23B5F4-A12D-487B-8EE8-5EE4517E1C76}|ToyRobotApp.Tests\\ToyRobotApp.Tests.csproj|solutionrelative:toyrobotapp.tests\\robotapptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5644D539-FCCA-42CB-8396-3DC9404DE415}|ToyRobotApp\\ToyRobotApp.csproj|s:\\job tasks\\toy robot task by icwa_v2\\toyrobotapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5644D539-FCCA-42CB-8396-3DC9404DE415}|ToyRobotApp\\ToyRobotApp.csproj|solutionrelative:toyrobotapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RobotAppTests.cs",
+              "DocumentMoniker": "S:\\job tasks\\toy robot task by ICWA_V2\\ToyRobotApp.Tests\\RobotAppTests.cs",
+              "RelativeDocumentMoniker": "ToyRobotApp.Tests\\RobotAppTests.cs",
+              "ToolTip": "S:\\job tasks\\toy robot task by ICWA_V2\\ToyRobotApp.Tests\\RobotAppTests.cs",
+              "RelativeToolTip": "ToyRobotApp.Tests\\RobotAppTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T08:42:20.857Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",
@@ -22,6 +48,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "S:\\job tasks\\toy robot task by ICWA_V2\\ToyRobotApp\\Program.cs",
+              "RelativeDocumentMoniker": "ToyRobotApp\\Program.cs",
+              "ToolTip": "S:\\job tasks\\toy robot task by ICWA_V2\\ToyRobotApp\\Program.cs",
+              "RelativeToolTip": "ToyRobotApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T06:29:46.75Z",
+              "EditorCaption": ""
             }
           ]
         }
